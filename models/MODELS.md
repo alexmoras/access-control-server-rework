@@ -16,8 +16,8 @@
 
 
 ## User
-- `_id` - user ID is random and unique. Provides a non-human-readable way to identify a user.
-- `username` - unique value which provides a hum-readable way to identify a user. Populated from OpenID. This is 
+- `_id` - user ID is a unique value provided by OpenID Connect.
+- `username` - unique value which provides a human-readable way to identify a user. Populated from OpenID. This is 
   implemented as legacy support for LDAP in case the organisation moves from the current OIDC Provider.
 - `offline` - boolean value for whether the user can access a client offline, will be written to card.
 

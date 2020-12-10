@@ -105,3 +105,6 @@ dist
 
 # IDEA project files
 .idea/
+
+# Key files
+*.pem
